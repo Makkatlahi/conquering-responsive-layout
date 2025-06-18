@@ -23,6 +23,28 @@ body {
   padding: 2rem;
   overflow-x: auto;
 }
+
+.return-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  background-color: rgb(34, 177, 149);
+  color: #072a2d;
+  padding: 2rem 2rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size: 1.6rem;
+  a {
+    color: #072a2d;
+    text-decoration: none;
+  }
+}
 .intro {
   width: 50%;
   padding: 12rem 2rem 16rem 0rem;

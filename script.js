@@ -1,5 +1,6 @@
 const buttonElements = document.querySelectorAll(".btn");
 const frameElement = document.getElementById("challenge-frame");
+const button2Elements = document.querySelectorAll(".btn2");
 
 const handleClick = (e) => {
   const clickedButtonEl = e.currentTarget;
@@ -8,6 +9,8 @@ const handleClick = (e) => {
     url = "./challenge-1/challenge1.html";
   } else if (clickedButtonEl.classList.contains("btn-2")) {
     url = "./challenge-2/challenge2.html";
+  } else if (clickedButtonEl.classList.contains("btn-3")) {
+    url = "./challenge-3/challenge3.html";
   }
 
   if (url && frameElement) {
