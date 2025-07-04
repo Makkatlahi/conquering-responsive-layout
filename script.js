@@ -11,6 +11,8 @@ const handleClick = (e) => {
     url = "./challenge-2/challenge2.html";
   } else if (clickedButtonEl.classList.contains("btn-3")) {
     url = "./challenge-3/challenge3.html";
+  } else if (clickedButtonEl.classList.contains("btn-4")) {
+    url = "./challenge-4/challenge4.html";
   }
 
   if (url && frameElement) {
