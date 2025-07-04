@@ -42,10 +42,7 @@ h1 {
 }
 
 .col + .col {
-  /* these are now flex items  */
-  /* background: limegreen; */
   margin-left: 100px;
-  /* width: 100%; */
 }
 
 .main__subtitle {
