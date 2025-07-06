@@ -19,7 +19,7 @@ body {
   background: linear-gradient(#3099b6, #3da35f);
   background-repeat: no-repeat;
   height: 100vh;
-  margin: 10rem;
+  margin: 5rem;
 }
 
 button {
@@ -45,57 +45,38 @@ a {
   box-shadow: 0 0 10px rgba(9, 55, 67, 0.8);
   padding: 3rem;
   border-radius: 1rem;
+  text-align: center;
   h1 {
     font-size: 3rem;
     color: rgb(206, 213, 214);
   }
 }
 
-.buttons,
-.buttons_2 {
+.buttons {
   display: flex;
+  flex-wrap: wrap;
   gap: 4rem;
   justify-content: center;
+  text-align: center;
   margin-bottom: 2rem;
 }
 
-.btn,
-.btn2 {
+.btn {
   color: white;
   background-color: rgb(42, 140, 141);
   border-radius: 1rem;
   border: 3px solid rgba(255, 255, 255, 0.3);
   /* box shadow */
   box-shadow: 0 0 10px rgba(26, 165, 140, 0.8);
-  width: 15rem;
-  padding: 1.2rem;
+  width: 30rem;
+  padding: 8rem;
+  font-size: 2rem;
 }
 
 .btn:hover,
-.btn2:hover {
+.btn:focus {
   background-color: rgb(36, 207, 170);
   box-shadow: 0 0 10px whitesmoke;
   transform: scale(1.1);
   cursor: pointer;
-}
-
-.buttons_2 {
-  margin-top: 0;
-  gap: 9rem;
-}
-
-.btn2 {
-  width: 10rem;
-  padding: 0.8rem;
-}
-
-#challenge-frame {
-  display: hidden;
-  resize: both;
-  overflow: auto;
-  width: 100rem;
-  padding: 0;
-  background-color: whitesmoke;
-  /* height: 100vh; */
-  border: 0.2rem solid rgb(173, 177, 175);
 }
