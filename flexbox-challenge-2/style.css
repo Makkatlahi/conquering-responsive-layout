@@ -33,11 +33,16 @@ h1 {
   margin-top: 0;
 }
 
+p {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
 .container {
   width: 80%;
   max-width: 1100px;
   margin: 0 auto;
-  border: 2px solid green;
 }
 
 .row {
@@ -65,17 +70,16 @@ h1 {
 }
 
 .hero__text {
-  width: 60%;
+  width: 58%;
 }
 
 .hero__img {
-  width: 30%;
+  width: 40%;
   align-self: flex-start;
-  border: 1px solid red;
 }
 
 .hero p {
-  margin-bottom: 3em;
+  margin-bottom: 1.8em;
 }
 
 .btn {
@@ -92,4 +96,39 @@ h1 {
 .btn:hover,
 .btn:focus {
   opacity: 0.75;
+}
+
+.main-text {
+  width: 80%;
+  max-width: 1100px;
+  margin: 4rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+.main-text p {
+  line-height: 1.5;
+}
+.left-col {
+  width: 58%;
+}
+
+.left-col__title {
+  color: #136c72;
+}
+
+.right-col {
+  width: 40%;
+  color: white;
+}
+
+.right-col__row {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1.2rem;
+  background-color: #136c72;
+}
+
+.right-col__row h2 {
+  margin-bottom: 0;
 }
